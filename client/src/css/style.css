@@ -11,15 +11,14 @@
 body {
   margin: 0;
   background-color: var(--monoaki);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
 h1 {
   font-size: 22px;
 }
-
 
 #navbar {
   height: var(--navbar-height);
@@ -37,7 +36,9 @@ h1 {
 .navbar-brand img {
   padding-top: 10px;
 }
-
+.CodeMirror-wrap {
+  height: 100%;
+}
 .loading-spinner {
   animation-duration: 0.75s;
   animation-iteration-count: infinite;
